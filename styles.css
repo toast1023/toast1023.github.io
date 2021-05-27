@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Roboto;
 }
 .slide {
   width: 100vw;
@@ -13,7 +14,7 @@ body {
  
 }
 .one {
-  background: #efdefe;
+  background: black;
 }
 .two {
   background: #a3f3d3;
@@ -38,4 +39,12 @@ body {
 #bongogif
 {
 	text-align: center;
+}
+.colorWhite
+{
+	color: white;
+}
+#name
+{
+	font-size: 200px;
 }
