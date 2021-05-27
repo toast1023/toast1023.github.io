@@ -36,9 +36,15 @@ body {
 {
 	text-align: center;
 }
+
 #bongogif
 {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 	text-align: center;
+	margin-top: 30px;
 }
 .colorWhite
 {
@@ -46,5 +52,9 @@ body {
 }
 #name
 {
-	font-size: 200px;
+	font-size: 120px;
+}
+#jobTitle
+{
+	font-size:  30px;
 }
