@@ -27,6 +27,10 @@ body {
 ::-webkit-scrollbar {
   display:none;
 }
+.outer-wrapper {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
 .slide
 {
 	text-align: center;
