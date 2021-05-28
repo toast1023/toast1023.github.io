@@ -17,7 +17,7 @@ body {
   background: black;
 }
 .two {
-  background: #a3f3d3;
+  background: purple;
 }
 .three {
   background: #0bbaa0;
@@ -46,7 +46,7 @@ body {
 	left: 0;
 	right: 0;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 .colorWhite
 {
@@ -228,7 +228,31 @@ body
   right:5%;
   top  :50%;
 }
+#fixed
+{
+  position: fixed;
+}
 .next:hover
+{
+  color: red;
+}
+.back
+{
+  position: absolute;
+  right:-5%;
+  top: 50%;
+}
+.back:hover
+{
+  color: red;
+}
+.next2
+{
+  position: absolute;
+  right:-95%;
+  top  :50%;
+}
+.next2:hover
 {
   color: red;
 }

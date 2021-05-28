@@ -12,7 +12,7 @@
     <div class="outer-wrapper">
       <div class="wrapper">   
         <div class="slide one" id = "top">
-          <nav role="navigation">
+          <nav role="navigation" id = "fixed">
             <div id="menuToggle">
               <!--
               A fake / hidden checkbox is used as click reciever,
@@ -69,13 +69,17 @@
 
         </div>
         <div class="slide two" id = "secondSlide">
-
+          <span> About me </span>
+          <div class= "back" onClick="document.getElementById('top').scrollIntoView({ behavior: 'smooth', block: 'center' });">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class= "next2" onClick="document.getElementById('thirdSlide').scrollIntoView({ behavior: 'smooth', block: 'center' });">
+            <i class="fas fa-chevron-right"></i>
+          </div>
         </div>
-        <div class="slide three">
-          
+        <div class="slide three" id = "thirdSlide">
         </div>
-        <div class="slide four">
-          
+        <div class="slide four" id = "fourthSlide">
         </div>
       </div>
     </div>
