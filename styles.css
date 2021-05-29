@@ -14,16 +14,16 @@ body {
  
 }
 .one {
-  background: black;
+  background: #1F1F1F;
 }
 .two {
-  background: purple;
+  background: #3C1642;
 }
 .three {
-  background: #0bbaa0;
+  background: #802328;
 }
 .four {
-  background: #00dfdf;
+  background: #1B1B3A;
 }
 ::-webkit-scrollbar {
   display:none;
@@ -256,4 +256,48 @@ body
 {
   color: red;
 }
+.aboutMeColumn {
+  float: left;
+  width: 40%;
+  padding-right: 10%;
+  margin-top: 15%;
+}
 
+/* Clear floats after the columns */
+.aboutMeRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.aboutMeRow
+{
+  margin-top: 50px;
+}
+.aboutMeTitle
+{
+  font-size: 40px;
+  text-align: left;
+  display: block;
+  width: 100%;
+  padding-left: 20px;
+}
+.back2
+{
+  position: absolute;
+  right:-105%;
+  top: 50%;
+}
+.back2:hover
+{
+  color: red;
+}
+.next3
+{
+  position: absolute;
+  right:-195%;
+  top  :50%;
+}
+.next3:hover
+{
+  color: red;
+}

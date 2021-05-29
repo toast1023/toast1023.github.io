@@ -35,16 +35,16 @@
               but hey, it's pure CSS magic.
               -->
               <ul id="menu">
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Skills</li></a>
-                <a href="#"><li>Projects</li></a>
+                <a href="#top"><li>Home</li></a>
+                <a href="#secondSlide" ><li >About</li></a>
+                <a href="#thirdSlide"><li>Skills</li></a>
+                <a href="#fourthSlide"><li>Projects</li></a>
                 <a href="#"><li>Contact</li></a>
               </ul>
             </div>
           </nav>
           <div>
-            <img src="gif/croppedblackbongocat.gif" id = "bongogif">
+            <img src="gif/transparentbongocat2.gif" id = "bongogif">
           </div>
           <div id = "namemargin">
             <span id = "name" class="colorWhite"> William Chen </span>
@@ -69,15 +69,40 @@
 
         </div>
         <div class="slide two" id = "secondSlide">
-          <span> About me </span>
           <div class= "back" onClick="document.getElementById('top').scrollIntoView({ behavior: 'smooth', block: 'center' });">
             <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="aboutMeRow">
+            <div class="aboutMeColumn">
+              <span class="aboutMePicture"> TEMP PLACEHOLDER FOR PHOTO </span>
+            </div>
+
+            <div class="aboutMeColumn">
+                <span class="aboutMeTitle"> About me </span>
+                <div>
+                  <span> 
+                    Lorem ipsum dolor sit amet, mollis melius euismod ne nam. Audire virtute appetere cu mei, no eum reque omnesque indoctum. Novum mazim apeirian ut has, albucius constituam ius ut. Eu facete virtute numquam mea, id mel petentium disputando. Sit modo decore eloquentiam eu, eu duo ignota delectus tractatos. Omnium detracto sapientem vis id, omnis paulo ius te.
+                  </span>
+                </div>
+            </div>
           </div>
           <div class= "next2" onClick="document.getElementById('thirdSlide').scrollIntoView({ behavior: 'smooth', block: 'center' });">
             <i class="fas fa-chevron-right"></i>
           </div>
         </div>
         <div class="slide three" id = "thirdSlide">
+          <div class= "back2" onClick="document.getElementById('secondSlide').scrollIntoView({ behavior: 'smooth', block: 'center' });">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div>
+            <span> SKILLS </span>
+          </div>
+          <div>
+            <span> Java, C++, Python, blah blah blah blah blah blah blah </span>
+          </div>
+          <div class= "next3" onClick="document.getElementById('fourthSlide').scrollIntoView({ behavior: 'smooth', block: 'center' });">
+            <i class="fas fa-chevron-right"></i>
+          </div>
         </div>
         <div class="slide four" id = "fourthSlide">
         </div>
