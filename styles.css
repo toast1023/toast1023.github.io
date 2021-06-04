@@ -232,15 +232,15 @@ body
   z-index: 0;
   top: 65%;
   right: 80%;
-  font-size: 55px;
+  font-size: 4vw;
   font-weight: 400;
 }
 .projectImage 
 {
     height: auto; 
     width: auto; 
-    max-width: 600px; 
-    max-height: 600px;
+    max-width: 42%; 
+    max-height: auto;
 }
 #project1Image
 {
@@ -273,7 +273,7 @@ body
   position: absolute;
   top: 66%;
   right: 29%;
-  font-size: 55px;
+  font-size: 4vw;
   font-weight: 400;
 }
 #project3Image
@@ -294,7 +294,7 @@ body
   position: absolute;
   top: 54%;
   right: -30%;
-  font-size: 55px;
+  font-size: 4vw;
   font-weight: 400;
 }
 .textColor
@@ -307,4 +307,59 @@ body
   font-size: 20px;
   right: 5%;
   top: 7%;
+}
+@media screen and (max-width: 900px) 
+{
+  .slide 
+  {
+    width: 100vw;
+    height: 500vw;
+  }
+  .wrapper 
+  {
+    flex-direction: column;
+    display: inline-block;
+    width: 100%;
+  }
+  .textColor
+  {
+    color: black;
+  }
+  #project1Text
+  {
+    position: absolute;
+    z-index: 0;
+    top: 30%;
+    right: 80%;
+    font-size: 5vw;
+    font-weight: 400;
+  }
+  #project1Number
+  {
+    position: absolute;
+    top: 17%;
+    right: 79%;
+    font-size: 20px;
+  }
+  #project2Image
+  {
+      position: absolute;
+      top: 46%;
+      right: 42%;
+  }
+  #project2Number
+  {
+    position: absolute;
+    top: 40%;
+    right: 79%;
+    font-size: 5vw;
+  }
+  #project2Text
+  {
+    position: absolute;
+    top: 53%;
+    right: 80%;
+    font-size: 4vw;
+    font-weight: 400;
+  }
 }
