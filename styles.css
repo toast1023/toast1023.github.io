@@ -312,8 +312,11 @@ body
 {
   #name
   {
-    right: 25%;
     top: 5%;
+  }
+  #fixed
+  {
+    opacity: 0;
   }
   .projectImage 
   {
