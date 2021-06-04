@@ -312,7 +312,10 @@ body
 {
   #name
   {
-    top: 5%;
+    font-size: 5vw;
+    position: absolute;
+    top: 7%;
+    right: 8%;
   }
   #fixed
   {
@@ -353,10 +356,6 @@ body
   .rotate
   {
     transform: rotate(0deg);
-  }
-  .textColor
-  {
-    color: black;
   }
   #project1Image
   {
