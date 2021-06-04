@@ -310,10 +310,36 @@ body
 }
 @media screen and (max-width: 900px) 
 {
+  #name
+  {
+    right: 25%;
+    top: 5%;
+  }
+  .projectImage 
+  {
+      height: auto; 
+      width: auto; 
+      max-width: 85%; 
+      max-height: auto;
+  }
+  #secondSlide
+  {
+    opacity: 0;
+  }
+  #thirdSlide
+  {
+    opacity: 0;
+  }
+  #fourthSlide
+  {
+    opacity: 0;
+  }
   .slide 
   {
+    overflow:hidden;
+    overflow-y:auto;
     width: 100vw;
-    height: 500vw;
+    height: auto;
   }
   .wrapper 
   {
@@ -321,66 +347,61 @@ body
     display: inline-block;
     width: 100%;
   }
+  .rotate
+  {
+    transform: rotate(0deg);
+  }
   .textColor
   {
     color: black;
   }
+  #project1Image
+  {
+      position: static;
+      margin-top: 35%;
+  }
   #project1Text
   {
-    position: absolute;
-    z-index: 0;
-    top: 30%;
-    right: 80%;
-    font-size: 5vw;
+    margin-top: 5%;
+    position: static;
+    font-size: 7vw;
     font-weight: 400;
   }
   #project1Number
   {
-    position: absolute;
-    top: 17%;
-    right: 79%;
-    font-size: 20px;
+    opacity: 0;
   }
   #project2Image
   {
-      position: absolute;
-      top: 46%;
-      right: 42%;
+      position: static;
+      margin-top: 10%;
   }
   #project2Number
   {
-    position: absolute;
-    top: 40%;
-    right: 79%;
-    font-size: 5vw;
+    opacity: 0;
   }
   #project2Text
   {
-    position: absolute;
-    top: 53%;
-    right: 80%;
-    font-size: 4vw;
+    margin-top: 5%;
+    position: static;
+    font-size: 7vw;
     font-weight: 400;
   }
   #project3Image
   {
-      position: absolute;
-      top: 50%;
-      right: 42%;
+      margin-top: 10%;
+      position: static;
   }
   #project3Number
   {
-    position: absolute;
-    top: 80%;
-    right: 79%;
-    font-size: 5vw;
+    opacity: 0;
   }
   #project3Text
   {
-    position: absolute;
-    top: 80%;
-    right: 80%;
-    font-size: 4vw;
+    position: static;
+    font-size: 7vw;
     font-weight: 400;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 }
