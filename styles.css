@@ -362,4 +362,25 @@ body
     font-size: 4vw;
     font-weight: 400;
   }
+  #project3Image
+  {
+      position: absolute;
+      top: 50%;
+      right: 42%;
+  }
+  #project3Number
+  {
+    position: absolute;
+    top: 80%;
+    right: 79%;
+    font-size: 5vw;
+  }
+  #project3Text
+  {
+    position: absolute;
+    top: 80%;
+    right: 80%;
+    font-size: 4vw;
+    font-weight: 400;
+  }
 }
