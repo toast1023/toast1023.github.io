@@ -7,11 +7,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+    $(function() {
+        $("#project2Image").hover(
+            function() {
+                $(this).attr("src", "media/loophole2.gif");
+            },
+            function() {
+                $(this).attr("src", "media/loopholePic.png");
+            }                         
+        );                  
+    });
+    $(function() {
+        $("#project1Image").hover(
+            function() {
+                $(this).attr("src", "media/SalStocks2.gif");
+            },
+            function() {
+                $(this).attr("src", "media/salstockPic.png");
+            }                         
+        );                  
+    });
+    $(function() {
+        $("#project3Image").hover(
+            function() {
+                $(this).attr("src", "media/PomodoroParty2.gif");
+            },
+            function() {
+                $(this).attr("src", "media/PomodoroPic.png");
+            }                         
+        );                  
+    });
+  </script>
   </head>
   <body>
     <div class="outer-wrapper">
       <div class="wrapper">   
         <div class="slide one" id = "top">
+          <div id = "name" class="textColor">
+            <span> William Chen </span>
+          </div>
           <nav role="navigation" id = "fixed">
             <div id="menuToggle">
               <!--
@@ -44,65 +80,44 @@
             </div>
           </nav>
           <div>
-            <img src="gif/transparentbongocat2.gif" id = "bongogif">
-          </div>
-          <div id = "namemargin">
-            <span id = "name" class="colorWhite"> William Chen </span>
+             <div class = "rotate textColor" id = "project1Text">
+              <span> SalStocks </span>
+            </div>
+            <div id = "project1Number" class = "textColor">
+              <span> 01 </span>
+            </div>
+            <div>
+              <img class = "projectImage" src="media/salstockPic.png" id = "project1Image">
+            </div>
           </div>
           <div>
-            <span id = "jobTitle" class= "colorWhite"> Software Engineer </span>
+            <div class = "rotate textColor" id = "project2Text">
+              <span> Loophole </span>
+            </div>
+            <div id = "project2Number" class = "textColor">
+              <span> 02 </span>
+            </div>
+            <div>
+              <img class = "projectImage" src="media/loopholePic.png" id = "project2Image">
+            </div>
           </div>
-          <div style = "margin-top: 20px;">
-            <span class = "myIcon" style="padding-right:40px">
-              <a href="https://github.com/toast1023"><i class="fab fa-github myIcon"></i></a>
-            </span>
-            <span class = "myIcon" style="padding-right:40px">
-              <a href="https://www.linkedin.com/in/william-chen-647823182/"><i class="fab fa-linkedin-in myIcon"></i></a>
-            </span>
-            <span class = "myIcon" >
-              <a href="mailto: chen529@usc.edu"><i class="fas fa-paper-plane myIcon"></i></a>
-            </span>
+          <div>
+            <div class = "rotate textColor" id = "project3Text">
+              <span> Pomodoro Party </span>
+            </div>
+            <div id = "project3Number" class = "textColor">
+              <span> 03 </span>
+            </div>
+            <div>
+              <img class = "projectImage" src="media/PomodoroPic.png" id = "project3Image">
+            </div>
           </div>
-          <div class= "next" onClick="document.getElementById('secondSlide').scrollIntoView({ behavior: 'smooth', block: 'center' });">
-            <i class="fas fa-chevron-right"></i>
-          </div>
-
         </div>
         <div class="slide two" id = "secondSlide">
-          <div class= "back" onClick="document.getElementById('top').scrollIntoView({ behavior: 'smooth', block: 'center' });">
-            <i class="fas fa-chevron-left"></i>
-          </div>
-          <div class="aboutMeRow">
-            <div class="aboutMeColumn">
-              <span class="aboutMePicture"> TEMP PLACEHOLDER FOR PHOTO </span>
-            </div>
-
-            <div class="aboutMeColumn">
-                <span class="aboutMeTitle"> About me </span>
-                <div>
-                  <span> 
-                    Lorem ipsum dolor sit amet, mollis melius euismod ne nam. Audire virtute appetere cu mei, no eum reque omnesque indoctum. Novum mazim apeirian ut has, albucius constituam ius ut. Eu facete virtute numquam mea, id mel petentium disputando. Sit modo decore eloquentiam eu, eu duo ignota delectus tractatos. Omnium detracto sapientem vis id, omnis paulo ius te.
-                  </span>
-                </div>
-            </div>
-          </div>
-          <div class= "next2" onClick="document.getElementById('thirdSlide').scrollIntoView({ behavior: 'smooth', block: 'center' });">
-            <i class="fas fa-chevron-right"></i>
-          </div>
+        
         </div>
         <div class="slide three" id = "thirdSlide">
-          <div class= "back2" onClick="document.getElementById('secondSlide').scrollIntoView({ behavior: 'smooth', block: 'center' });">
-            <i class="fas fa-chevron-left"></i>
-          </div>
-          <div>
-            <span> SKILLS </span>
-          </div>
-          <div>
-            <span> Java, C++, Python, blah blah blah blah blah blah blah </span>
-          </div>
-          <div class= "next3" onClick="document.getElementById('fourthSlide').scrollIntoView({ behavior: 'smooth', block: 'center' });">
-            <i class="fas fa-chevron-right"></i>
-          </div>
+ 
         </div>
         <div class="slide four" id = "fourthSlide">
         </div>

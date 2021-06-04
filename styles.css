@@ -14,16 +14,16 @@ body {
  
 }
 .one {
-  background: #1F1F1F;
+  background: #F9E4C8;
 }
 .two {
-  background: #3C1642;
+  background: #F9E4C8;
 }
 .three {
-  background: #802328;
+  background: #F9E4C8;
 }
 .four {
-  background: #1B1B3A;
+  background: #F9E4C8;
 }
 ::-webkit-scrollbar {
   display:none;
@@ -110,7 +110,7 @@ body
   cursor: pointer;
   
   opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  z-index: 4; /* and place it over the hamburger */
   
   -webkit-touch-callout: none;
 }
@@ -126,7 +126,7 @@ body
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: black;
   border-radius: 3px;
   
   z-index: 1;
@@ -213,91 +213,98 @@ body
 {
   transform: none;
 }
-.myIcon
-{
-  color: white;
-  font-size: 40px;
-}
-.myIcon:hover
-{
-  color: red;
-}
-.next
-{
-  position: absolute;
-  right:5%;
-  top  :50%;
-}
 #fixed
 {
   position: fixed;
+  z-index: 10;
 }
 .next:hover
 {
   color: red;
 }
-.back
+.rotate
+{
+  transform: rotate(-90deg);
+}
+#project1Text
 {
   position: absolute;
-  right:-5%;
-  top: 50%;
+  z-index: 0;
+  top: 65%;
+  right: 80%;
+  font-size: 55px;
+  font-weight: 400;
 }
-.back:hover
+.projectImage 
 {
-  color: red;
+    height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 600px;
 }
-.next2
+#project1Image
 {
-  position: absolute;
-  right:-95%;
-  top  :50%;
+    position: absolute;
+    top: 23%;
+    right: 42%;
 }
-.next2:hover
-{
-  color: red;
-}
-.aboutMeColumn {
-  float: left;
-  width: 40%;
-  padding-right: 10%;
-  margin-top: 15%;
-}
-
-/* Clear floats after the columns */
-.aboutMeRow:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.aboutMeRow
-{
-  margin-top: 50px;
-}
-.aboutMeTitle
-{
-  font-size: 40px;
-  text-align: left;
-  display: block;
-  width: 100%;
-  padding-left: 20px;
-}
-.back2
+#project1Number
 {
   position: absolute;
-  right:-105%;
-  top: 50%;
+  top: 17%;
+  right: 82%;
+  font-size: 20px;
 }
-.back2:hover
+#project2Image
 {
-  color: red;
+    position: absolute;
+    top: 23%;
+    right: -10%;
 }
-.next3
+#project2Number
 {
   position: absolute;
-  right:-195%;
-  top  :50%;
+  top: 17%;
+  right: 30%;
+  font-size: 20px;
 }
-.next3:hover
+#project2Text
 {
-  color: red;
+  position: absolute;
+  top: 66%;
+  right: 29%;
+  font-size: 55px;
+  font-weight: 400;
+}
+#project3Image
+{
+    position: absolute;
+    top: 23%;
+    right: -65%;
+}
+#project3Number
+{
+  position: absolute;
+  top: 17%;
+  right: -25%;
+  font-size: 20px;
+}
+#project3Text
+{
+  position: absolute;
+  top: 54%;
+  right: -30%;
+  font-size: 55px;
+  font-weight: 400;
+}
+.textColor
+{
+  color: #A11F1F;
+}
+#name
+{
+  position: fixed;
+  font-size: 20px;
+  right: 5%;
+  top: 7%;
 }
