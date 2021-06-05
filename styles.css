@@ -1,3 +1,7 @@
+html
+{
+  background-color: #F9E4C8;;
+}
 body {
   margin: 0;
   padding: 0;
@@ -292,7 +296,7 @@ body
 #project3Text
 {
   position: absolute;
-  top: 54%;
+  top: 55%;
   right: -30%;
   font-size: 4vw;
   font-weight: 400;
@@ -308,8 +312,18 @@ body
   right: 5%;
   top: 7%;
 }
+a
+{
+  text-decoration: none;
+  color: #A11F1F;
+}
+/* FOR MOBILE */
 @media screen and (max-width: 900px) 
 {
+  .outer-wrapper
+  {
+    width: 100%;
+  }
   #name
   {
     font-size: 5vw;
@@ -344,7 +358,7 @@ body
   {
     overflow:hidden;
     overflow-y:auto;
-    width: 100vw;
+    width: 100%;
     height: auto;
   }
   .wrapper 
@@ -397,6 +411,7 @@ body
   #project3Number
   {
     opacity: 0;
+    display: none;
   }
   #project3Text
   {
@@ -406,4 +421,63 @@ body
     margin-top: 5%;
     margin-bottom: 5%;
   }
+}
+/* ABOUT PAGE */
+.aboutMeColumn {
+  float: left;
+  width: 30%;
+  margin-top: 15%;
+}
+.aboutMeColumn2 {
+  float: left;
+  width: 30%;
+  padding-right: 5%;
+  margin-right: 10%;
+  margin-top: 12%;
+  margin-left: 10%;
+}
+/* Clear floats after the columns */
+.aboutMeRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.aboutMeTitle
+{
+  font-size: 40px;
+  text-align: left;
+  display: block;
+  width: 100%;
+  color: #A11F1F;
+}
+#WillPhoto
+{
+  max-width: 500px;
+  max-height: auto;
+  margin-left: 20%;
+}
+#aboutMeMainText
+{
+  color: #A11F1F;
+  font-size: 30px;
+}
+#bigbigbig
+{
+  width: 100%;
+  height: 100%;
+  background-color: #F9E4C8;
+}
+.myIcon
+{
+  color: #A11F1F;
+  font-size: 40px;
+}
+.myIcon:hover
+{
+  color: red;
+}
+#aboutcontacts
+{
+  color: #A11F1F;
+  margin-bottom: 5px;
 }
