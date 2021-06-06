@@ -338,6 +338,14 @@ a
   font-size: 4vw;
   font-weight: 400;
 }
+#construction
+{
+  position: absolute;
+  top: 50%;
+  right: -220%;
+  font-size: 100px;
+  color: #A11F1F;
+}
 /* _________________________________________ MOBILE _________________________________________ */
 @media screen and (max-width: 1024px) 
 {
@@ -458,6 +466,11 @@ a
     font-weight: 400;
     margin-top: 5%;
     margin-bottom: 5%;
+  }
+  #construction
+  {
+    display: none;
+    opacity: 0;
   }
 }
 
