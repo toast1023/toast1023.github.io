@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> SalStocks - William Chen</title>
+	<link rel="stylesheet" href = "styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() 
+    {
+        $("#mainProjectImage2").click(
+            function() {
+            	alert("clicked");
+                $(this).attr("src", "media/loophole3.gif");
+            },
+            function() {
+                $(this).attr("src", "media/loopholePic2.png");
+            }                         
+        );                  
+    });
+	</script>
+</head>
+<body>
+	<div id = "name" class="textColor">
+		<span> <a href="about.html" id="aboutLink">William Chen </a></span>
+	</div>
+	<nav role="navigation" id = "fixed">
+	    <div id="menuToggle">
+	      <!--
+	      A fake / hidden checkbox is used as click reciever,
+	      so you can use the :checked selector on it.
+	      -->
+	      <input type="checkbox" />
+	      
+	      <!--
+	      Some spans to act as a hamburger.
+	      
+	      They are acting like a real hamburger,
+	      not that McDonalds stuff.
+	      -->
+	      <span></span>
+	      <span></span>
+	      <span></span>
+	      
+	      <!--
+	      Too bad the menu has to be inside of the button
+	      but hey, it's pure CSS magic.
+	      -->
+	      <ul id="menu">
+	        <a href="#top"><li>Home</li></a>
+	        <a href="about.html" ><li >About</li></a>
+	        <a href="#thirdSlide"><li>Skills</li></a>
+	        <a href="#fourthSlide"><li>Projects</li></a>
+	        <a href="about.html"><li>Contact</li></a>
+	      </ul>
+	    </div>
+	  </nav>
+	  <div>
+	  	<img class = "mainProjectImage" src="media/loopholePic2.png" id = "mainProjectImage2">
+	  </div>
+</body>
+</html>
+
+
+
+
+

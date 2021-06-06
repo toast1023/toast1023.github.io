@@ -11,10 +11,22 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
+    var image = new Image();
+    image.src = 'media/loophole3.gif';
+
+    var image2 = new Image();
+    image2.src = 'media/SalStocks2.gif';
+
+    var image3 = new Image();
+    image3.src = 'media/PomodoroParty2.gif';
+
+    var image4 = new Image();
+    image4.src = 'media/pacman.gif';
+
     $(function() {
         $("#project2Image").hover(
             function() {
-                $(this).attr("src", "media/loophole2.gif");
+                $(this).attr("src", image.src);
             },
             function() {
                 $(this).attr("src", "media/loopholePic.png");
@@ -24,7 +36,7 @@
     $(function() {
         $("#project1Image").hover(
             function() {
-                $(this).attr("src", "media/SalStocks2.gif");
+                $(this).attr("src", image2.src);
             },
             function() {
                 $(this).attr("src", "media/salstockPic.png");
@@ -34,7 +46,7 @@
     $(function() {
         $("#project3Image").hover(
             function() {
-                $(this).attr("src", "media/PomodoroParty2.gif");
+                $(this).attr("src", image3.src);
             },
             function() {
                 $(this).attr("src", "media/PomodoroPic.png");
@@ -44,7 +56,7 @@
     $(function() {
         $("#project4Image").hover(
             function() {
-                $(this).attr("src", "media/pacman.gif");
+                $(this).attr("src", image4.src);
             },
             function() {
                 $(this).attr("src", "media/pacmanPic.png");
@@ -96,7 +108,9 @@
               <span> 01 </span>
             </div>
             <div>
-              <img class = "projectImage" src="media/salstockPic.png" id = "project1Image">
+              <a href="salstock.html">
+                <img class = "projectImage" src="media/salstockPic.png" id = "project1Image">
+              </a>
             </div>
             <div class = "rotate textColor" id = "project1Text">
               <span> SalStocks </span>
