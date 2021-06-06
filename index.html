@@ -41,6 +41,16 @@
             }                         
         );                  
     });
+    $(function() {
+        $("#project4Image").hover(
+            function() {
+                $(this).attr("src", "media/pacman.gif");
+            },
+            function() {
+                $(this).attr("src", "media/pacmanPic.png");
+            }                         
+        );                  
+    });
   </script>
   </head>
   <body>
@@ -77,7 +87,7 @@
                 <a href="about.html" ><li >About</li></a>
                 <a href="#thirdSlide"><li>Skills</li></a>
                 <a href="#fourthSlide"><li>Projects</li></a>
-                <a href="#"><li>Contact</li></a>
+                <a href="about.html"><li>Contact</li></a>
               </ul>
             </div>
           </nav>
@@ -112,6 +122,17 @@
             </div>
             <div class = "rotate textColor" id = "project3Text">
               <span> Pomodoro Party </span>
+            </div>
+          </div>
+          <div>
+            <div id = "project4Number" class = "textColor">
+              <span> 04 </span>
+            </div>
+            <div>
+              <img class = "projectImage" src="media/pacmanPic.png" id = "project4Image">
+            </div>
+            <div class = "rotate textColor" id = "project4Text">
+              <span> Pacman AI </span>
             </div>
           </div>
         </div>

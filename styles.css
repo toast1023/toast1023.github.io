@@ -284,20 +284,20 @@ body
 {
     position: absolute;
     top: 23%;
-    right: -65%;
+    right: -62%;
 }
 #project3Number
 {
   position: absolute;
   top: 17%;
-  right: -25%;
+  right: -22%;
   font-size: 20px;
 }
 #project3Text
 {
   position: absolute;
   top: 55%;
-  right: -30%;
+  right: -29%;
   font-size: 4vw;
   font-weight: 400;
 }
@@ -317,8 +317,29 @@ a
   text-decoration: none;
   color: #A11F1F;
 }
-/* FOR MOBILE */
-@media screen and (max-width: 900px) 
+#project4Image
+{
+    position: absolute;
+    top: 23%;
+    right: -115%;
+}
+#project4Number
+{
+  position: absolute;
+  top: 17%;
+  right: -75%;
+  font-size: 20px;
+}
+#project4Text
+{
+  position: absolute;
+  top: 65%;
+  right: -77%;
+  font-size: 4vw;
+  font-weight: 400;
+}
+/* _________________________________________ MOBILE _________________________________________ */
+@media screen and (max-width: 1024px) 
 {
   .outer-wrapper
   {
@@ -419,10 +440,28 @@ a
     font-size: 7vw;
     font-weight: 400;
     margin-top: 5%;
+  }
+  #project4Image
+  {
+      margin-top: 10%;
+      position: static;
+  }
+  #project4Number
+  {
+    opacity: 0;
+    display: none;
+  }
+  #project4Text
+  {
+    position: static;
+    font-size: 7vw;
+    font-weight: 400;
+    margin-top: 5%;
     margin-bottom: 5%;
   }
 }
-/* ABOUT PAGE */
+
+/* _________________________________________ ABOUT PAGE _________________________________________ */
 .aboutMeColumn {
   float: left;
   width: 30%;
@@ -480,4 +519,58 @@ a
 {
   color: #A11F1F;
   margin-bottom: 5px;
+}
+@media only screen and (max-width: 1024px) {
+  .aboutMeColumn2 {
+    width: 0%;
+    padding-right: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    display: none;
+    opacity: 0;
+  }
+  .aboutMeRow
+  {
+    width: 90%;
+  }
+  .aboutMeColumn
+  {
+    margin-left: 10%;
+    width: 100%;
+    margin-top: 50%;
+  }
+  #fixed
+  {
+    opacity: 0;
+  }
+  .aboutMeTitle
+  {
+    font-size: 80px;
+    text-align: left;
+    display: block;
+    width: 100%;
+    color: #A11F1F;
+  }
+  #aboutMeMainText
+  {
+    color: #A11F1F;
+    font-size: 60px;
+  }
+  #aboutcontacts
+  {
+    color: #A11F1F;
+    margin-bottom: 2vw;
+    font-size: 4vw;
+  }
+  .myIcon
+  {
+    color: #A11F1F;
+    font-size: 60px;
+  }
+  #contactsStyle
+  {
+    position: absolute;
+    bottom: 3%;
+  }
 }
