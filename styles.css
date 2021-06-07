@@ -656,6 +656,27 @@ a
 {
   text-decoration: underline;
 }
+#mainProjectImageDiv
+{
+  position: relative;
+  color: #A11F1F;
+  font-weight: 300;
+  font-size: 10vw;
+}
+#playGIF
+{
+  position: absolute;
+  top: 60%;
+  left:  50%;
+  transform: translate(-50%, -50%);
+}
+#clickableAwesomeFont {
+     cursor: pointer
+}
+.clearbutton
+{
+  opacity: 0;
+}
 
 
 
