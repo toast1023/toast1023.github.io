@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> SalStocks - William Chen</title>
+	<link rel="stylesheet" href = "styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+    var image = new Image();
+    image.src = 'media/loophole3.gif';
+
+    $(document).ready(function() 
+    {
+        $("#mainProjectImage2").click(
+            function() {
+            	$(this).toggleClass("gifMode");
+            	if($(this).hasClass("gifMode"))
+            	{
+                	$(this).attr("src", image.src);
+            	}
+            	else
+            	{
+            		$(this).attr("src", "media/loopholePic2.png");
+            	}
+            }                      
+        );                  
+    });
+    $(function() {
+        $("#githubLink").hover(
+            function() {
+                $(this).toggleClass("underline");
+            },                    
+        );                  
+    });
+	</script>
+</head>
+<body>
+	<div id = "name2" class="textColor">
+		<span> <a href="about.html" id="aboutLink">William Chen </a></span>
+	</div>
+	<nav role="navigation" id = "fixed2">
+	    <div id="menuToggle">
+	      <!--
+	      A fake / hidden checkbox is used as click reciever,
+	      so you can use the :checked selector on it.
+	      -->
+	      <input type="checkbox" />
+	      
+	      <!--
+	      Some spans to act as a hamburger.
+	      
+	      They are acting like a real hamburger,
+	      not that McDonalds stuff.
+	      -->
+	      <span></span>
+	      <span></span>
+	      <span></span>
+	      
+	      <!--
+	      Too bad the menu has to be inside of the button
+	      but hey, it's pure CSS magic.
+	      -->
+	      <ul id="menu">
+	        <a href="index.html"><li>Home</li></a>
+	        <a href="about.html" ><li >About</li></a>
+	        <a href="#thirdSlide"><li>Skills</li></a>
+	        <a href="#fourthSlide"><li>Projects</li></a>
+	        <a href="about.html"><li>Contact</li></a>
+	      </ul>
+	    </div>
+ 	</nav>
+	<div id="allallall">
+	 	<div id="mainProjectImageDiv">
+	  		<img class = "mainProjectImage centerImage" src="media/loopholePic2.png" id = "mainProjectImage2">
+		</div>
+		<div class="projectRow">
+		  <div class="projectColumn">
+		  	<span id="indProjectTitle"> Loophole </span>
+		  	<div id="teamMembers">Team Members: Can Chen, Gabriel Juarez, William Chen, Arlyvia Chaialee</div>
+		  	<div id = "teamMembers"> Languages: C#</div>
+		  </div>
+		  <div class="projectColumn2">
+		  	Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique mollis pharetra. Ut nec tristique quam. Sed commodo semper diam sed semper. Donec ultricies, nunc non ultricies dignissim, nunc nibh congue tortor, in porttitor magna quam id sapien. Duis semper mauris augue, ac varius mauris aliquet a. Aliquam ac porta.
+		  	<div id="githubLinkDiv"><a href="https://github.com/ThomasChen1220/Prototype" id ="githubLink">Github Link</a></div>
+		  </div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+

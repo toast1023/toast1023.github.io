@@ -590,12 +590,72 @@ a
 /* _________________________________________ PROJECT PAGES _________________________________________ */
 .mainProjectImage
 {
-  max-width: 800px;
+  max-width: 80vw;
+}
+#allallall
+{
+  background: #F9E4C8;
+}
+.centerImage
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 10%;
+}
+#fixed2
+{
+  position: absolute;
+}
+#name2
+{
+  position: absolute;
+  font-size: 20px;
+  right: 5%;
+  top: 7%;
+}
+.projectColumn
+{
+  float: left;
+  padding-right: 10%;
+  width: 40%;
+}
+.projectColumn2 {
+  float: left;
+  width: 50%;
 }
 
-
-
-
+/* Clear floats after the columns */
+.projectRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.projectRow
+{
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 6%;
+  color: #A11F1F;
+}
+#indProjectTitle
+{
+  font-size: 2.5vw;
+}
+#teamMembers
+{
+  margin-top: 2%;
+}
+#githubLinkDiv
+{
+  margin-top: 2%;
+}
+.underline
+{
+  text-decoration: underline;
+}
 
 
 
