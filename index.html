@@ -12,16 +12,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
     var image = new Image();
-    image.src = 'media/loophole2.gif';
+    image.src = 'media/loophole3.gif';
 
     var image2 = new Image();
-    image2.src = 'media/SalStocks2.gif';
+    image2.src = 'media/salstocks3.gif';
 
     var image3 = new Image();
-    image3.src = 'media/PomodoroParty2.gif';
+    image3.src = 'media/PomodoroParty3.gif';
 
     var image4 = new Image();
-    image4.src = 'media/pacman.gif';
+    image4.src = 'media/pacman3.gif';
+
+    var image5 = new Image();
+    image5.src = 'media/homepage.gif';
 
     $(function() {
         $("#project2Image").hover(
@@ -29,7 +32,7 @@
                 $(this).attr("src", image.src);
             },
             function() {
-                $(this).attr("src", "media/loopholePic.png");
+                $(this).attr("src", "media/loopholePic2.png");
             }                         
         );                  
     });
@@ -39,7 +42,7 @@
                 $(this).attr("src", image2.src);
             },
             function() {
-                $(this).attr("src", "media/salstockPic.png");
+                $(this).attr("src", "media/salstockPic2.png");
             }                         
         );                  
     });
@@ -49,7 +52,7 @@
                 $(this).attr("src", image3.src);
             },
             function() {
-                $(this).attr("src", "media/PomodoroPic.png");
+                $(this).attr("src", "media/PomodoroPic2.png");
             }                         
         );                  
     });
@@ -59,7 +62,17 @@
                 $(this).attr("src", image4.src);
             },
             function() {
-                $(this).attr("src", "media/pacmanPic.png");
+                $(this).attr("src", "media/pacmanPic4.png");
+            }                         
+        );                  
+    });
+    $(function() {
+        $("#project5Image").hover(
+            function() {
+                $(this).attr("src", image5.src);
+            },
+            function() {
+                $(this).attr("src", "media/homepagePic.png");
             }                         
         );                  
     });
@@ -109,7 +122,7 @@
             </div>
             <div>
               <a href="salstock.html">
-                <img class = "projectImage" src="media/salstockPic.png" id = "project1Image">
+                <img class = "projectImage" src="media/salstockPic2.png" id = "project1Image">
               </a>
             </div>
             <div class = "rotate textColor" id = "project1Text">
@@ -122,7 +135,7 @@
             </div>
             <div>
               <a href="loophole.html">
-                <img class = "projectImage" src="media/loopholePic.png" id = "project2Image">
+                <img class = "projectImage" src="media/loopholePic2.png" id = "project2Image">
               </a>
             </div>
             <div class = "rotate textColor" id = "project2Text">
@@ -134,7 +147,7 @@
               <span> 03 </span>
             </div>
             <div>
-              <img class = "projectImage" src="media/PomodoroPic.png" id = "project3Image">
+              <img class = "projectImage" src="media/PomodoroPic2.png" id = "project3Image">
             </div>
             <div class = "rotate textColor" id = "project3Text">
               <span> Pomodoro Party </span>
@@ -145,10 +158,21 @@
               <span> 04 </span>
             </div>
             <div>
-              <img class = "projectImage" src="media/pacmanPic.png" id = "project4Image">
+              <img class = "projectImage specPacman" src="media/pacmanPic4.png" id = "project4Image">
             </div>
             <div class = "rotate textColor" id = "project4Text">
               <span> Pacman AI </span>
+            </div>
+          </div>
+          <div>
+            <div id = "project5Number" class = "textColor">
+              <span> 05 </span>
+            </div>
+            <div>
+              <img class = "projectImage" src="media/homepagePic.png" id = "project5Image">
+            </div>
+            <div class = "rotate textColor" id = "project5Text">
+              <span> Homepage </span>
             </div>
           </div>
           <div id = "construction">

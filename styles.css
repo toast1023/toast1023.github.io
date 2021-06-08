@@ -234,7 +234,7 @@ body
 {
   position: absolute;
   z-index: 0;
-  top: 65%;
+  top: 60%;
   right: 80%;
   font-size: 4vw;
   font-weight: 400;
@@ -275,7 +275,7 @@ body
 #project2Text
 {
   position: absolute;
-  top: 66%;
+  top: 61%;
   right: 29%;
   font-size: 4vw;
   font-weight: 400;
@@ -296,7 +296,7 @@ body
 #project3Text
 {
   position: absolute;
-  top: 55%;
+  top: 50%;
   right: -29%;
   font-size: 4vw;
   font-weight: 400;
@@ -321,20 +321,41 @@ a
 {
     position: absolute;
     top: 23%;
-    right: -115%;
+    right: -114%;
 }
 #project4Number
 {
   position: absolute;
   top: 17%;
-  right: -75%;
+  right: -74%;
   font-size: 20px;
 }
 #project4Text
 {
   position: absolute;
-  top: 65%;
-  right: -77%;
+  top: 60%;
+  right: -76%;
+  font-size: 4vw;
+  font-weight: 400;
+}
+#project5Image
+{
+    position: absolute;
+    top: 23%;
+    right: -166%;
+}
+#project5Number
+{
+  position: absolute;
+  top: 17%;
+  right: -126%;
+  font-size: 20px;
+}
+#project5Text
+{
+  position: absolute;
+  top: 58%;
+  right: -129%;
   font-size: 4vw;
   font-weight: 400;
 }
@@ -342,7 +363,7 @@ a
 {
   position: absolute;
   top: 50%;
-  right: -220%;
+  right: -260%;
   font-size: 100px;
   color: #A11F1F;
 }
@@ -465,7 +486,24 @@ a
     font-size: 7vw;
     font-weight: 400;
     margin-top: 5%;
-    margin-bottom: 5%;
+  }
+  #project5Image
+  {
+      margin-top: 10%;
+      position: static;
+  }
+  #project5Number
+  {
+    opacity: 0;
+    display: none;
+  }
+  #project5Text
+  {
+    position: static;
+    font-size: 7vw;
+    font-weight: 400;
+    margin-top: 5%;
+    margin-bottom: 10%;
   }
   #construction
   {
