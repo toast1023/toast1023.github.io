@@ -1,3 +1,3 @@
-<h1>[Personal Portfolio Website:](toast1023.github.io)</h1>
+<h1>Personal Portfolio Website:</h1>
 <br/>
-[CLICK ME](toast1023.github.io)
+<toast1023.github.io>
