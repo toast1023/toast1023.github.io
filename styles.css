@@ -187,7 +187,7 @@ body
 #menu
 {
   position: absolute;
-  height: 63vh;
+  height: 100vh;
   width: 25vh;
   margin: -100px 0 0 -50px;
   padding: 50px;
@@ -624,6 +624,11 @@ a
     position: absolute;
     bottom: 3%;
   }
+  #aboutMeMainText3
+  {
+    margin-right: 5%;
+  }
+
 }
 /* _________________________________________ PROJECT PAGES _________________________________________ */
 .mainProjectImage
@@ -648,6 +653,7 @@ a
 }
 #name2
 {
+  z-index: 10;
   position: absolute;
   font-size: 20px;
   right: 5%;
@@ -690,6 +696,10 @@ a
 {
   margin-top: 2%;
 }
+#githubLink:hover
+{
+  color: red;
+}
 .underline
 {
   text-decoration: underline;
@@ -704,9 +714,13 @@ a
 #playGIF
 {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left:  50%;
   transform: translate(-50%, -50%);
+}
+#playGIF:hover
+{
+  color: red;
 }
 #clickableAwesomeFont {
      cursor: pointer
@@ -715,7 +729,94 @@ a
 {
   opacity: 0;
 }
-
+#backIcon
+{
+  right: 50%;
+  opacity: 0;
+  display: none;
+}
+/* _________________________________________ PROJECT PAGES MOBILE _________________________________________ */
+@media only screen and (max-width: 1024px) 
+{
+  #name2
+  {
+    font-size: 5vw;
+    position: absolute;
+    top: 7%;
+    right: 8%;
+  }
+  .mainProjectImage 
+  {
+      height: auto; 
+      width: auto; 
+      max-width: 85%; 
+      max-height: auto;
+  }
+  #mainProjectImageDiv
+  {
+    width: 100%;
+    margin-top: 35%;
+  }
+  .centerImage
+  {
+    padding-top: 0%;
+  }
+  #indProjectTitle
+  {
+    font-size: 10vw;
+  }
+  .projectColumn
+  {
+    padding-top: 5%;
+    float: left;
+    padding-right: 0%;
+    width: 100%;
+  }
+  .projectColumn2 
+  {
+    float: left;
+    width: 100%;
+    font-size: 3vw;
+  }
+  #teamMembers
+  {
+    font-size: 4vw;
+    margin-top: 4%;
+  }
+  .server
+  {
+    margin-bottom: 8%;
+  }
+  #githubLinkDiv
+  {
+    font-size: 6vw;
+    margin-top: 10%;
+  }
+  #allallall
+  {
+    width: 100%;
+  }
+  html
+  {
+    width: 100%;
+    margin: 0%;
+    height: auto;
+  }
+  #backIcon
+  {
+    position: absolute;
+    font-size: 14vw;
+    color: #A11F1F;
+    opacity: 1.0;
+    display: block;
+    top: 5%;
+    right: 81%;
+  }
+  #whiteywhitewhite:hover
+  {
+    color: red;
+  }
+}
 
 
 
