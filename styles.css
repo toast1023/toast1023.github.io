@@ -367,6 +367,14 @@ a
   font-size: 100px;
   color: #A11F1F;
 }
+#changeMeeee:hover span
+{
+  display:none
+}
+#changeMeeee:hover:before 
+{
+  content:"About me"
+}
 /* _________________________________________ MOBILE _________________________________________ */
 @media screen and (max-width: 1024px) 
 {
